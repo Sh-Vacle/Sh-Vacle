@@ -1,35 +1,31 @@
 # Sh-Vacle · 软件开发作品集
 
-中国矿业大学人工智能专业，2027届本科生。面向 Android 研发与通用软件开发岗位，正在学习 Java 后端开发。
+中国矿业大学人工智能专业，2027届本科生。面向Android与通用软件开发岗位，正在学习Java后端。
 
-项目实践：**Android / Kotlin / Python / 计算机视觉**。精选项目与源码入口如下；Java 后端仍为学习方向。
+项目使用Kotlin、Python，涉及Android应用、计算机视觉和小型神经网络实验。
 
-## 🧭 精选项目
+## 精选项目
 
-### <img src="assets/autoledger.svg" width="34" alt="AutoLedgerCN项目图标"> 01 · [AutoLedgerCN](https://github.com/Sh-Vacle/AutoLedgerCN)
+### <img src="assets/autoledger.svg" width="34" alt="AutoLedgerCN图标"> [AutoLedgerCN](https://github.com/Sh-Vacle/AutoLedgerCN)
 
-本地通知记账 Android 应用。Kotlin、Jetpack Compose、Room、DataStore：通知解析、金额过滤、交易指纹与跨来源去重、待确认流程、CSV及统计页面。
+Kotlin、Compose、Room与DataStore构建的本地通知记账应用：金额解析、交易指纹与跨来源去重、待确认流程、CSV和统计页面。使用本地规则分类，当前源码版本尚未构建或实机验收。
 
-重点看：[业务源码](https://github.com/Sh-Vacle/AutoLedgerCN/tree/main/app/src/main/java/com/autoledgercn) · [架构](https://github.com/Sh-Vacle/AutoLedgerCN/blob/main/docs/ARCHITECTURE.md) · [运行与验收](https://github.com/Sh-Vacle/AutoLedgerCN/blob/main/docs/RUNNING.md)。当前源码版本尚未重新构建/实机验收，分类使用本地规则，未接入云AI。
+[代码](https://github.com/Sh-Vacle/AutoLedgerCN/tree/main/app/src/main/java/com/autoledgercn) · [架构](https://github.com/Sh-Vacle/AutoLedgerCN/blob/main/docs/ARCHITECTURE.md) · [运行说明](https://github.com/Sh-Vacle/AutoLedgerCN/blob/main/docs/RUNNING.md)
 
-### <img src="assets/video.svg" width="34" alt="campus-violence-recognition项目图标"> 02 · [校园暴力视频识别](https://github.com/Sh-Vacle/campus-violence-recognition)
+### <img src="assets/video.svg" width="34" alt="视频识别图标"> [校园暴力视频识别](https://github.com/Sh-Vacle/campus-violence-recognition)
 
-TensorFlow、MobileNetV2、FFmpeg：视频抽帧、迁移学习、帧级评估、视频概率聚合及TFLite导出。保留共同贡献信息，历史帧级验证指标不作为视频级竞赛成绩。
+TensorFlow、MobileNetV2与FFmpeg实现视频抽帧、迁移学习、帧级评估、视频概率聚合和TFLite导出。保留团队共同贡献信息；历史帧级指标不作为视频级竞赛成绩，设备部署尚未验收。
 
-重点看：[训练与推理源码](https://github.com/Sh-Vacle/campus-violence-recognition/tree/main/src) · [评估口径](https://github.com/Sh-Vacle/campus-violence-recognition/blob/main/docs/EVALUATION.md)。本轮未重新训练或验证设备部署。
+[代码](https://github.com/Sh-Vacle/campus-violence-recognition/tree/main/src) · [评估口径](https://github.com/Sh-Vacle/campus-violence-recognition/blob/main/docs/EVALUATION.md) · [来源与贡献](https://github.com/Sh-Vacle/campus-violence-recognition/blob/main/docs/SOURCES_AND_PERMISSIONS.md)
 
-### <img src="assets/experiment.svg" width="34" alt="pytorch-nn-compare项目图标"> 03 · [PyTorch 神经网络对比实验](https://github.com/Sh-Vacle/pytorch-nn-compare)
+### <img src="assets/experiment.svg" width="34" alt="PyTorch实验图标"> [PyTorch MLP 对比实验](https://github.com/Sh-Vacle/pytorch-nn-compare)
 
-二维合成数据上的MLP组合配置对比，包含训练曲线、决策边界、混淆矩阵与结构化结果。补充算法实验组织与结果解释能力，不作为真实业务数据性能证明。
+二维合成数据上的MLP配置对比，保存训练曲线、决策边界、混淆矩阵和结构化结果。图表来自单seed实验，5项CPU数据/结构检查已有通过记录。
 
-重点看：[实验入口](https://github.com/Sh-Vacle/pytorch-nn-compare/blob/main/train_compare.py) · [保存结果](https://github.com/Sh-Vacle/pytorch-nn-compare/tree/main/results) · [实验分析](https://github.com/Sh-Vacle/pytorch-nn-compare/blob/main/docs/EXPERIMENT_REPORT.md)。5项CPU数据/结构检查已有通过记录，历史准确率是单seed实验。
+[代码](https://github.com/Sh-Vacle/pytorch-nn-compare/blob/main/train_compare.py) · [保存结果](https://github.com/Sh-Vacle/pytorch-nn-compare/tree/main/results) · [实验分析](https://github.com/Sh-Vacle/pytorch-nn-compare/blob/main/docs/EXPERIMENT_REPORT.md)
 
-## 📬 学习方向与交流
+## 交流与开发说明
 
-继续学习 Java 后端开发；当前公开仓库尚未提供 Spring Boot、Redis或分布式系统的工程证明。
+项目问题可在对应仓库提交Issue；[GitHub账号](https://github.com/Sh-Vacle)为当前公开专业链接。
 
-项目问题与技术交流可在对应仓库提交 Issue；[GitHub 账号](https://github.com/Sh-Vacle)是当前公开专业链接。不公开私人手机号或邮箱，不展示未获公开许可的团队竞赛源码。
-
-## 📝 开发与验证说明
-
-部分开发与整理使用 GPT、Codex 辅助；项目说明以真实源码、实验记录和验证边界为准，不将辅助工具当作技术成果。
+部分开发、调试与整理使用过GPT、Codex辅助。功能、实验结果和验证范围以各项目源码及记录为准。
